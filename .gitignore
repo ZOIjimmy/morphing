@@ -1,0 +1,8 @@
+*~
+/test_img
+*.jpg
+*.dat
+output
+face_landmark_detection
+*.out
+*.xml
