@@ -6,3 +6,4 @@ output
 face_landmark_detection
 *.out
 *.xml
+.DS_Store
