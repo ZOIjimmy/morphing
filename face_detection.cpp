@@ -109,7 +109,7 @@ void extract(int i) {
         //cv::circle(image[i], cv::Point(landmark.x(), landmark.y()), 2, cv::Scalar(0, 255, 0), -1);
     //}
     std::set<int> excludedNumbers = {16,21,26,30,35,41,47,59};
-    for (int j=0;j<67;j++) {
+    for (int j=0;j<48;j++) {
         if (excludedNumbers.count(j) == 0) {
             curLine[i].P = cv::Point2f(landmarks.part(j).x(), landmarks.part(j).y());
             curLine[i].Q = cv::Point2f(landmarks.part(j+1).x(), landmarks.part(j+1).y());
